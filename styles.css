@@ -1,0 +1,138 @@
+body {
+    
+}
+
+.main {
+    background-color: white;
+    align-items: center;
+}
+
+.mid-content {
+    background-color: hsl(226, 43%, 20%);
+    color: white;
+    width: 80%;
+    height: 80vh;
+    padding: 2;
+    align-items: center;
+
+}
+
+.content {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+
+    
+        
+        height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+}
+
+.sidebar {
+    background-color: hsl(235, 46%, 20%);
+    color: white;
+    width: 20%;
+    height: 60vh;
+    padding: 25px;
+
+        width: 250px;
+        padding: 20px;
+        border-radius: 10px;
+      
+}
+
+.image-card {
+    background-color: hsl(246, 80%, 60%);
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    height: 60vh;
+    text-align: start;
+    padding: 25px;
+}
+
+.image-card img {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    /* border: solid 5px white; */
+    width: 150px;
+    height: 150px;
+
+}
+
+.sidebar img {
+    width: 100px;
+    border-radius: 50%;
+  }
+
+.image-card h2 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.image-card h6 {
+    font-size: 20px;
+    margin: 0;
+}
+
+
+.main-content {
+    display: flex;
+    gap: 20px;
+    
+    height: 30vh;
+    width: 30vh;
+
+    
+        flex: 1;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-content: space-between;
+      
+
+}
+
+.card-header{
+    background-color: hsl(235, 46%, 20%);
+    height: 300px;
+    width: 300px;
+}
+
+.card-body-1 {
+    background-color: hsl(15, 100%, 70%);
+}
+.card-body-2 {
+    background-color: hsl(195, 74%, 62%);
+}
+
+.card-body-3 {
+    background-color: hsl(348, 100%, 68%);
+}
+
+.card-body-4 {
+    background-color: hsl(145, 58%, 55%);
+}
+
+.card-body-5 {
+    background-color: hsl(264, 64%, 52%);
+}
+
+.card-body-6 {
+    background-color: hsl(43, 84%, 65%);
+    
+}
+
+  
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  article {
+    height: 350px;
+    width: 300px;
+}
+  
